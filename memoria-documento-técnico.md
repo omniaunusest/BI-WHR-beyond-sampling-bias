@@ -1,6 +1,6 @@
 # Memoria de Proyecto: World Happiness Report
 
-Un análisis de los índices utilizados por Gallup y sus resultados.
+Un análisis de los índices utilizados en la publicación del Work Happiness Report y sus resultados.
 
 ## Índice
 
@@ -39,7 +39,7 @@ Los ``[datos proporcionados](relative path del o de los archivos)`` para el proy
 
 - [Satisfacción vital](#life-ladder)
 
-- [Logaritmo del PIB per cápita](#log-gdp-per-capita)
+- [PIB per cápita en logaritmo natural](#log-gdp-per-capita)
 
 
 ---
@@ -118,6 +118,7 @@ Los ``[datos proporcionados](relative path del o de los archivos)`` para el proy
 
 ### Year
 
+*Año de la recolección de los datos*
 
 
 **Propuesta de mejora:**
@@ -133,7 +134,9 @@ Los ``[datos proporcionados](relative path del o de los archivos)`` para el proy
 
 ### Life Ladder
 
-*Escala de satisfacción vital*
+*Escala de satisfacción vital.*
+
+Las evaluaciones de vida de la encuesta Gallup World Poll son la base para el ranking anual de felicidad. La *escala de Cantril* pide a los encuestados que imaginen una escalera, donde el peldaño 10 representa la mejor vida posible para ellos y el 0, la peor. Luego, se les pide que califiquen su vida actual en una escala del 0 al 10.
 
 **Propuesta de mejora:**
 
@@ -172,6 +175,11 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 
 ### Social Support
 
+*Apoyo social percibido*
+
+Usa la media nacional de las respuestas binarias (0=no, 1=sí) a la pregunta de la encuesta Gallup World Poll (GWP): 
+
+>      “Si tuviera problemas, ¿tiene familiares o amigos en quienes pueda confiar para que le ayuden siempre que los necesite, o no?”.
 
 ㅤ
 **Propuesta de mejora:**
@@ -187,6 +195,9 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 
 ### Healthy Life Expectancy At Birth
 
+*Esperanza de vida al nacer.*
+
+ La serie temporal se construye a partir de datos del repositorio de la Organización Mundial de la Salud (OMS). Para cubrir el período de este informe (2005-2022), se utilizan técnicas de interpolación y extrapolación.
 ㅤ
 **Propuesta de mejora:**
 
@@ -202,6 +213,10 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 
 ### Freedom To Make Life Choices educationfield
 
+Se usa la media nacional de las respuestas binarias (0-1) a la pregunta de la GWP:
+
+>      “¿Está satisfecho o insatisfecho con su libertad para elegir qué hacer con su vida?”
+
 
 **Propuesta de mejora:**
 
@@ -215,6 +230,12 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 ---
 
 ### Generosity
+
+*Cantidad de donaciones en relación con el log. del PIB per cápita*
+
+Se calcula como el residuo de la regresión de la media nacional de las respuestas de la GWP a la pregunta:
+
+>      “¿Ha donado dinero a una organización benéfica en el último mes?” sobre el logaritmo del PIB per cápita.
 
 ㅤ
 **Propuesta de mejora:**
@@ -231,6 +252,14 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 
 ### Perceptions Of Corruption
 
+Se usa la media de las respuestas binarias (0-1) a dos preguntas de la GWP: 
+
+>      “¿La corrupción está muy extendida en el gobierno o no?”
+
+>       “¿La corrupción está muy extendida en las empresas o no?”
+
+Cuando faltan datos sobre corrupción gubernamental, se utiliza la percepción de corrupción en las empresas como medida general.
+
 ㅤ
 **Propuesta de mejora:**
 
@@ -245,6 +274,14 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 ---
 
 ### Positive Affect
+
+*Sentimientos positivos experimentados recientemente*
+
+Se define como la media de las medidas de efectos del día anterior para risa, disfrute e interés. La inclusión del interés (**incorporado por primera vez en el Informe Mundial de la Felicidad 2022**) aporta tres componentes tanto al afecto positivo como al negativo, mejorando ligeramente el ajuste del modelo en la columna 4. 
+
+La forma general de las preguntas sobre afecto es: 
+
+>      “¿Experimentó los siguientes sentimientos durante gran parte del día de ayer?”.
 
 ㅤ
 **Propuesta de mejora:**
@@ -261,6 +298,10 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 
 ### Negative Affect
 
+*Sentimientos negativos experimentados recientemente*
+
+Se define como la media de las medidas de efectos del día anterior para preocupación, tristeza y enojo.
+
 ㅤ
 **Propuesta de mejora:**
 
@@ -275,6 +316,26 @@ No trabajamos con el crecimiento absoluto. Podría ser interesante cruzar el dat
 ---
 
 ### Confidence In National Government
+
+*Confianza en el Gobierno de la Nación*
+
+Esta variable se calcula a partir de la siguiente pregunta de la encuesta Gallup World Poll:
+
+>      “¿Tiene confianza en el gobierno nacional?”.
+
+Las opciones de respuesta son:
+- “Sí, siempre”
+
+- “Sí, a veces”
+
+- “No, rara vez”
+
+- “No, nunca”
+
+- “No sabe”
+
+La variable se calcula como el porcentaje de encuestados que responden ``“Sí, siempre”`` o ``“Sí, a veces”`` a esta pregunta.
+
 
 ㅤ
 **Propuesta de mejora:**
