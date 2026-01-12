@@ -7,7 +7,7 @@
 
 **A)** La satisfacción con la vida en comparación con otros países.
 
-**B)** La calidad objetiva de servicios públicos (ej. sanidad, educación).
+**B)** La calidad objetiva de las condiciones materiales.
 
 **C)** La percepción de apoyo social.
 
@@ -41,29 +41,9 @@ Países con altos índices de depresión o alcoholismo, como Finlandia, pueden p
 
 ---
 
-### Sesgo de muestreo
-
-**3. El WHR utiliza métodos de entrevista diferentes según el país. ¿Qué puede hacer apostarlo todo al muestreo Web/Móvil?**
-
-A) Exclusión de representatividad a causa de brecha digital.
-
-B) Elimina por completo el sesgo del entrevistador, garantizando datos 100% objetivos.
-
-C) Mayor tasa de abandono/respuestas automáticas.
-
-D) Reduce el sesgo de deseabilidad social, los encuestados responden con más honestidad sin un entrevistador presente.
-
-**Respuesta correcta: A) y C)**
-
-**Explicación:**
-
-El muestreo web/móvil deja fuera a grupos sin acceso a tecnología (ej.: mayores, población más precaria), distorsionando la representatividad. Por otro lado, una mayoría de encuestas autoadministradas pierde calidad al generar más respuestas superficiales por falta de guía humana. Ambos problemas comprometen la validez de los datos en estudios como el WHR.
-
----
-
 ### Un descanso informativo, sesgo de PAPI
 
-**4. ¿Qué significa que se han obtenido respuestas mediante PAPI?**
+**3. ¿Qué significa que se han obtenido respuestas mediante PAPI?**
 
 A) Este método no existe.
 B) Un sistema de encuestas basado en PApel y láPIz.
