@@ -5,7 +5,6 @@
 
 ![Choose your fighter](/img/kahoot1.png)
 
-
 **A)** La satisfacción con la vida en comparación con otros países.
 
 **B)** La calidad objetiva de servicios públicos (ej. sanidad, educación).
