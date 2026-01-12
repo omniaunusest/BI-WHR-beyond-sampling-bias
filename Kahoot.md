@@ -61,7 +61,7 @@ El muestreo web/móvil deja fuera a grupos sin acceso a tecnología (ej.: mayore
 
 ---
 
-### Un descanso informativo
+### Un descanso informativo, sesgo de PAPI
 
 **4. ¿Qué significa que se han obtenido respuestas mediante PAPI?**
 
@@ -78,25 +78,9 @@ PAPI (Paper And Pencil Interviewing) se refiere específicamente al uso de papel
 
 ---
 
-### Sesgo de PAPI y métodos obsoletos
-
-**5. En 2025, el WHR y otras iniciativas de recogida de datos aún utiliza métodos como PAPI (papel y lápiz) y landline en algunos países. ¿Qué problema genera esto?**
-
-**A)** Mayor margen de error por datos desactualizados.
-**B)** Exclusión de población sin acceso a tecnología.
-**C)** Sesgo hacia grupos con mayor educación (quienes suelen completar encuestas en papel).
-**D)** Todas las anteriores.
-
-**Respuesta correcta: D) Todas las anteriores.**
-
-**Explicación:**
-Métodos como PAPI o landline introducen sesgos de cobertura (ej. excluyen a jóvenes, migrantes) y de precisión (errores al transcribir respuestas). Países que usan mayormente estos métodos pueden tener datos menos representativos.
-
----
-
 ### Sesgo de densidad poblacional y recursos
 
-**6. Finlandia (5.5 millones de hab.) y España (47 millones) tienen puntuaciones similares en 'apoyo social'. ¿Qué factor NO considera el informe al compararlos?**
+**5. Finlandia (5.5 millones de hab.) y España (47 millones) tienen puntuaciones similares en 'apoyo social'. ¿Qué factor NO considera el informe al compararlos?**
 
 **A)** La densidad poblacional y la presión sobre servicios públicos.
 
@@ -113,9 +97,9 @@ El informe no ajusta por densidad poblacional. Un país con menos habitantes pue
 
 ---
 
-### Sesgo de narrativa mediática
+### Sesgo de narrativa mediática: ÚLTIMA PREGUNTA
 
-**7. Los medios suelen presentar el WHR como 'el ranking absoluto de los países más felices'. ¿Qué mensaje oculta esta narrativa?**
+**6. Los medios suelen presentar el WHR como 'el ranking absoluto de los países más felices'. ¿Qué mensaje oculta esta narrativa?**
 
 **A)** La "felicidad" es un concepto estático y universal.
 
