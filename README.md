@@ -54,8 +54,6 @@ BI-WHR-BEYOND-SAMPLING-BIAS
 |   └── EDA
 |   └── Transf
 |
-├── output/
-|
 ├── reports/
 |
 ├── scripts/
