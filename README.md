@@ -1,15 +1,16 @@
-# DRAFT--- (ajustar luego)
+
 # Data Insights – World Happiness Report
 
-**Módulo 4 – Visualización de Datos (Tableau & Power BI)**
 
 ## Descripción del proyecto
 
-En este proyecto trabajamos con el **World Happiness Report** como dataset principal para analizar y visualizar factores relacionados con el bienestar y la felicidad a nivel global.  
+En este proyecto trabajamos con un conjunto de datos extraídos de los informes anuales del **World Happiness Report**, como dataset principal. La horquilla de tiempo que comprenden las muestras empieza en 2005 y termina en 2023.
 
-El objetivo es aplicar un flujo completo de **EDA, ETL y visualización**, combinando **Python**, **Jupyter Notebooks**, **Tableau** y **Power BI**, para comunicar insights de forma clara y efectiva. 
+El objetivo es, en primer lugar, analizar y visualizar factores relacionados con el bienestar a nivel global. Posteriorimente, se compara la información obtenida con la metología de muestreo y se cruzan estos datos con la densidad de población de cada país, para comprobar la representatividad real.
 
-El proyecto se apoya en los mismos principios metodológicos utilizados en el Proyecto 3 (exploración, limpieza, análisis crítico y visualización), adaptados al enfoque de Business Intelligence del Módulo 4.
+Hemos aplicado un flujo completo de **EDA, transformaciones y visualización**, combinando **Python**, **Jupyter Notebooks** y **Power BI**, para extraer insights de forma detallada pero clara.
+
+El proyecto se apoya en los principios metodológicos: exploración, limpieza, análisis crítico y visualización, adaptados al enfoque de Business Intelligence.
 
 ---
 
@@ -32,10 +33,9 @@ El proyecto se apoya en los mismos principios metodológicos utilizados en el Pr
 - **EDA y ETL** con Python y Jupyter Notebook.
 
 - Limpieza, transformación y validación de datos.
-- Organización del código en una carpeta `src` con funciones reutilizables en archivos `.py`.
+- Organización de código de soporte en una carpeta `scripts` con funciones reutilizables en archivos `.py`.
 - Visualización de datos mediante:
-  - **Tableau**, para análisis visual y dashboards.
-  - **Power BI**, para visualizaciones interactivas y paneles de control.
+  - **Power BI**, para visualizaciones significativas, interactivas y paneles de control.
 - Análisis crítico de resultados y comunicación de insights.
 
 ---
@@ -43,18 +43,25 @@ El proyecto se apoya en los mismos principios metodológicos utilizados en el Pr
 ## Estructura del repositorio
 
 ```text
-PROYECTO-DA-PROMO-60-MODULO-4-TEAM-2
+BI-WHR-BEYOND-SAMPLING-BIAS
 │
-├── files/
-│   └── World_Happiness_Report.csv
-│
-├── src/
+├── data/
+│   └── processed
+|   └── raw
+├── docs/
+├── img/
+├──notebooks/
+|   └── EDA
+|   └── Transf
+|
+├── output/
+|
+├── reports/
+|
+├── scripts/
 │   └── scripts de apoyo para ETL y análisis
-│
-├── EDA.ipynb
-├── world-happiness-exploracion-visual.twbx
-├── README.md
-└── working-agreements.md
+|
+└── README.md
 ```
 
 ## Autoría
